@@ -6,6 +6,7 @@
 
 body {
     background-color: #ffffff;
+    font-family: "Inter", sans-serif;
 }
 
 .navbar {
@@ -19,20 +20,11 @@ body {
     font-size: 24px;
     letter-spacing: 3px;
     font-weight: 400;
-    line-height: 100%;
-font-family: "Inter", sans-serif;}
-
-.logo span {
-    font-weight: 400px;
 }
 
 .nav-links {
     display: flex;
-    width: 500px;
-    top: 48px;
-    left: 334px;
     gap: 40px;
-
 }
 
 .nav-links a {
@@ -56,7 +48,99 @@ font-family: "Inter", sans-serif;}
     align-items: center;
     gap: 50px;
 }
+
 .nav-icons img {
     width: 22px;
     cursor: pointer;
+} 
+.line-rightçizgi{
+  border-right: 1px solid #ccc;
+  margin-right: ; 
 }
+
+
+
+/*navbar bitti*/
+
+
+/*MİNEL Hero kısmı start*/
+.hero{  
+  background-color: #C1DCDC;
+  max-width: 1248px;
+  margin: 40px auto;   /* sağ sol boşluk - ortalama */
+  border-radius: 24px;
+  padding: 80px;
+
+
+}
+.container {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.hero-left {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1.2;
+}
+ .stats {
+  display: flex;
+  align-items: center;
+  gap: 48px; /* Figma’daki gap */
+}
+.divider {
+    
+  width: 5px;
+  height: 200px;
+  background: #131212;
+}
+ .search-box img{
+    width: 48;
+height: 48;
+top: 8px;
+left: 393px;
+border-radius: 12px;
+background-color:#C1DCDC ;
+border: none;
+
+
+ }
+ .search-box input{
+    background-color: aqua;
+    width: 449px;
+height: 64px;
+border-radius: 12px;
+border: none;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
