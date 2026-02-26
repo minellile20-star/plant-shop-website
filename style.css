@@ -55,92 +55,131 @@ body {
 } 
 .line-rightçizgi{
   border-right: 1px solid #ccc;
-  margin-right: ; 
+  margin-right: 1; 
 }
 
+/*Minel Navbar and*/
 
-
-/*navbar bitti*/
-
-
-/*MİNEL Hero kısmı start*/
-.hero{  
+/* Minel hero start */
+.hero {  
   background-color: #C1DCDC;
   max-width: 1248px;
-  margin: 40px auto;   /* sağ sol boşluk - ortalama */
+  margin: 40px auto;
   border-radius: 24px;
   padding: 80px;
-
-
 }
+
 .container {
   width: 100%;
   max-width: 1248px;
   margin: 0 auto;
 }
 
-.hero-left {
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SOL TARAF */
+.baslık {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-size: 64px;
   line-height: 1.2;
+  margin-bottom: 32px;
 }
- .stats {
+
+/* Stats */
+.stats {
   display: flex;
   align-items: center;
-  gap: 48px; /* Figma’daki gap */
+  gap: 48px;
+  margin-bottom: 32px;
 }
+
+.stats h3 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.yazı {
+  padding-top: 15px;
+    margin: 0;
+  color:#1E1E1E;
+  font-family: "Poppins";
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+
+}
+
 .divider {
-    
-  width: 5px;
-  height: 200px;
+  width: 2px;
+  height: 60px;
   background: #131212;
 }
- .search-box img{
-    width: 48;
-height: 48;
-top: 8px;
-left: 393px;
-border-radius: 12px;
-background-color:#C1DCDC ;
-border: none;
 
+/* SEARCH */
+.search-box {
+  position: relative;
+  width: 449px;
+}
 
- }
- .search-box input{
-    background-color: aqua;
-    width: 449px;
-height: 64px;
-border-radius: 12px;
-border: none;
+.search-box input {
+  width: 100%;
+  height: 64px;
+  border-radius: 12px;
+  border: none;
+  padding: 0 60px 0 20px;
+  font-size: 16px;
+}
 
- }
-
-
-
-
-
-
-
-
+.search-box img {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
 
 
 
+/* SAĞ TARAF */
+.endıs {
+  display: flex;
+  justify-content: flex-end;
+}
 
+.image-wrap {
+    position: relative;
+  display: inline-block;
 
+}
 
+.bg-image {
+  display: block;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.front-image {
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  height: 100%;
+  object-fit: contain; /* taşmayı engeller */
+}
+.icon-bg {
+  position: absolute; 
+  width: 48px;
+  height: 48px;
+  top: 8px;
+  left: 393px;
+  background-color:#C1DCDC;  
+  border-radius: 4px;       
+  opacity: 1;
+  transform: rotate(0deg);    /* açı için */
+}
+/*Minel Hero and*/
