@@ -183,3 +183,82 @@ line-height: 100%;
   transform: rotate(0deg);    /* açı için */
 }
 /*Minel Hero and*/
+
+
+
+/*minel 2 hero*/
+.container-A {  
+  background-color:#FFFFFF;
+  max-width: 1248px;
+  margin: 40px auto;
+  border-radius: 24px;
+  padding: 80px;
+}
+.hero-left-A{
+width: 256px;
+height: 189px;
+opacity: 1;
+gap: 12px;
+
+}
+.buyukyazı{
+  font-family:" Poppins";
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 15px;
+
+}
+
+.yazıkucuk{
+
+  font-family: "Poppins";
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #999;
+padding-bottom: 15px;
+
+}
+
+.input-box {
+  position: relative;
+  width: 300px;
+}
+
+.input-box img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+    background-color: #C1DCDC;
+
+
+}
+
+
+
+
+.input-box input {
+
+    width: 168;
+height: 51;
+opacity: 1;
+gap: 10px;
+border-radius: 8px;
+padding-top: 12px;
+padding-right: 24px;
+padding-bottom: 12px;
+padding-left: 24px;
+    background-color: #C1DCDC;
+border: none;
+}
+
+.image-wreep{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 12px;
+
+}
