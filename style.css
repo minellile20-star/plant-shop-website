@@ -186,38 +186,48 @@ line-height: 100%;
 
 
 
-/*minel 2 hero*/
+/*minel Product List start*/
+.section-A{
+padding: 60px 80px;
+
+
+}
+
 .container-A {  
-  background-color:#FFFFFF;
-  max-width: 1248px;
-  margin: 40px auto;
-  border-radius: 24px;
-  padding: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 60px;
 }
 .hero-left-A{
+margin-bottom:140px;
 width: 256px;
-height: 189px;
-opacity: 1;
-gap: 12px;
+height: 264px;
+gap: 24px;
+top: 732px;
+left: 96px;
+
+
 
 }
 .buyukyazı{
-  font-family:" Poppins";
+  font-family:"Poppins",sans-serif ;
 font-weight: 700;
 font-size: 32px;
-line-height: 100%;
-letter-spacing: 0%;
+line-height: 1.6;
 padding-bottom: 15px;
+margin-bottom: 10px;
 
 }
 
 .yazıkucuk{
-
-  font-family: "Poppins";
+  font-family:"Poppins",sans-serif ;
 font-weight: 500;
 font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
+line-height: 1.6;
+letter-spacing:0;
 color: #999;
 padding-bottom: 15px;
 
@@ -225,27 +235,12 @@ padding-bottom: 15px;
 
 .input-box {
   position: relative;
-  width: 300px;
-}
-
-.input-box img {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 16px;
-    background-color: #C1DCDC;
-
+  width: 250px;
+  
 
 }
-
-
-
-
 .input-box input {
-
-    width: 168;
-height: 51;
-opacity: 1;
+width:155px;
 gap: 10px;
 border-radius: 8px;
 padding-top: 12px;
@@ -254,11 +249,59 @@ padding-bottom: 12px;
 padding-left: 24px;
     background-color: #C1DCDC;
 border: none;
+cursor: pointer;
+
 }
+
+
+.ressimm{
+  position: absolute;
+  top:50%;
+right:45%;
+transform: translateY(-50%);
+  width: 20px;
+  pointer-events: none;
+}
+
+
+
+/*resimler kısmı*/
 
 .image-wreep{
  display: flex;
- flex-wrap: wrap;
- gap: 12px;
+justify-content: center;
+ gap: 30px;
+}
+.dikneli{
+  text-align: center;
+}
+.dikneli img{
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 15px;
 
 }
+.altyazı{
+  font-family:"Poppins",sans-serif ;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+padding-bottom: 15px;
+padding-top: 15px;
+
+}
+@media (max-width: 768px) {
+
+  .container-A {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-wreep {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+/*Minel Product List and */
