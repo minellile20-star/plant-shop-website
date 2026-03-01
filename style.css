@@ -16,6 +16,15 @@ body {
     padding: 25px 100px;
 }
 
+
+.dividerr {
+  width: 1px;
+  height: 20px;
+  background: #2e2b2b;
+
+  
+}
+
 .logo {
     font-size: 24px;
     letter-spacing: 3px;
@@ -56,6 +65,27 @@ body {
 .line-rightçizgi{
   border-right: 1px solid #ccc;
   margin-right: 1; 
+}
+
+
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-icons {
+    gap: 15px;
+  }
+
 }
 
 /*Minel Navbar and*/
