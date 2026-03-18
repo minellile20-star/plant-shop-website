@@ -335,3 +335,102 @@ padding-top: 15px;
 
 }
 /*Minel Product List and */
+
+/*Minel About start */
+
+.about{
+text-align: center;
+padding: 60px 20px;
+}
+
+
+
+.aboutyazı{
+font-family: "Poppins";
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#1E1E1E;
+}
+
+.aboutalt{
+margin:10px;
+  font-family: "Poppins";
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#000000;
+}
+
+.cardsP{
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+
+.cardsbir{
+max-width: 250px;
+gap:24px;
+
+}
+.imgcc{
+margin: 0 auto;
+  background-color: #C1DCDC;
+width: 60px;
+height: 60px;
+border-radius:50px;
+display: flex;
+
+align-items: center;
+justify-content: center;
+}
+.imgcc img{
+  max-width: 45%;
+  
+}
+
+.saksı{
+  margin: 10px;
+  font-family: "Poppins";
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.saksık{
+ max-width: 220px;
+font-family: "Poppins";
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
